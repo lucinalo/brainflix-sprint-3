@@ -1,0 +1,12 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/variables" as *;
+
+.comments-section {
+  padding: 0 1rem;
+  @include tablet {
+    padding: 0 2.25rem;
+  }
+  @include desktop {
+    padding: 0 0rem;
+  }
+}

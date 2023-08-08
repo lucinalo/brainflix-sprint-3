@@ -1,0 +1,16 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/variables" as *;
+
+.desktop {
+  @include desktop {
+    width: 94%;
+  }
+}
+.row {
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+    max-width: 63.75rem;
+    margin: 0 auto;
+  }
+}
